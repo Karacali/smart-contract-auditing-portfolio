@@ -1,0 +1,3 @@
+damn-vulnerable-defi/*
+!damn-vulnerable-defi/test/
+!damn-vulnerable-defi/test/**
