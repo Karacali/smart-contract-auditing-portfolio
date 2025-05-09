@@ -4,35 +4,8 @@ This repository contains practical solutions to the **Lotteries** category of [C
 
 Each challenge is solved using a custom attacker contract (when necessary), with automated Hardhat tests simulating and verifying the exploits locally.
 
----
 
-## 📁 Project Structure
-
-```bash
-contracts/
-└── lotteries/
-    ├── GuessTheNumber.sol
-    ├── GuessTheNewNumber.sol
-    ├── GuessTheNewNumberAttacker.sol
-    ├── GuessTheRandomNumber.sol
-    ├── GuessTheSecretNumber.sol
-    ├── PredictTheBlockhash.sol
-    ├── PredictTheFuture.sol
-    └── PredictTheFutureAttacker.sol
-
-test/
-└── lotteries/
-    ├── guess-the-number.test.ts
-    ├── guess-the-new-number.test.ts
-    ├── guess-the-random-number.test.ts
-    ├── guess-the-secret-number.test.ts
-    ├── predict-the-blockhash.ts
-    └── predict-the-future.test.ts
-````
-
----
-
-## ✅ Solved Challenges & Files
+## Solved Challenges & Files
 
 | Challenge               | Challenge Contract         | Attacker Contract (if any)        | Test File                         |
 | ----------------------- | -------------------------- | --------------------------------- | --------------------------------- |
@@ -45,7 +18,7 @@ test/
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ```bash
 npm install          # install dependencies
