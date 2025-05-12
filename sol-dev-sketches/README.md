@@ -45,7 +45,7 @@ npx hardhat run scripts/upgrade-corrected.js --network localhost
 ##### 5. Inspect Proxy Storage
 
 ```bash
-npx hardhat run scripts/readStorageDecoded.js --network localhost
+npx hardhat run scripts/readStorageDecoded.js --network localhost 
 ```
 
 #### Key Concepts
