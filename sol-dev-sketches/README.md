@@ -19,11 +19,12 @@ This project demonstrates how to build a simple upgradeable proxy pattern using 
 #### How to Use
 
 ##### 1. Start Local Node
+
 ```bash
 npx hardhat node
 ````
 
-### 2. Deploy Proxy and V1
+##### 2. Deploy Proxy and V1
 
 ```bash
 npx hardhat run scripts/deploy.js --network localhost

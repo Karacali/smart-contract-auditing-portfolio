@@ -51,7 +51,10 @@ assertEq(vault.owner(), deployer);
 ## How to Run
 
 ```bash
-forge test -t test_unstoppable
+#on test folder
+forge test -t test_unstoppable 
+#or
+forge test --mp test/unstoppable/Unstoppable.t.sol
 ```
 
 To see log output during test execution: (I added some log on test_unstoppable function)

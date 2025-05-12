@@ -35,11 +35,10 @@ describe("GuessTheRandomNumberChallenge", function () {
     console.log("Guess submitted successfully");
 
     // Check that the challenge is solved
-    const contractBalance = await ethers.provider.getBalance(challenge.address);
-    console.log("Contract balance after guess:", ethers.utils.formatEther(contractBalance), "ETH");
-    expect(contractBalance).to.equal(0);
+    const isComplete = await challenge.isComplete();
+    expect(isComplete).to.equal(true);
+    console.log("Challenge solved!");
 
-    console.log("Challenge solved");
   });
 
 });
