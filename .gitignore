@@ -1,6 +1,7 @@
 damn-vulnerable-defi-v4/*
 !damn-vulnerable-defi-v4/test/
 !damn-vulnerable-defi-v4/test/**
+!damn-vulnerable-defi-v4/README.md
 sol-dev-sketches/proxy-upgrade-hardhat/*
 !sol-dev-sketches/proxy-upgrade-hardhat/contracts/
 !sol-dev-sketches/proxy-upgrade-hardhat/contracts/**
