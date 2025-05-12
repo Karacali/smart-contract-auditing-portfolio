@@ -1,6 +1,10 @@
 # Smart Contract Auditing Portfolio
 
-This repository contains my personal portfolio of smart contract auditing work, including hands-on analyses, exploit demonstrations, and structured write-ups. It includes challenges from platforms like Damn Vulnerable DeFi (DV4), Ethernaut, and others, showcasing logic-based vulnerabilities, permission issues, and common DeFi flaws.
+This repository contains my personal portfolio of smart contract auditing work, including hands-on vulnerability analyses, exploit implementations, and structured write-ups. It covers CTF-style challenges and exercises focused on logic bugs, access control flaws, integer overflows/underflows, and DeFi-specific vulnerabilities.
 
-Currently working through Damn Vulnerable DeFi CTF challenges. More challenges and write-ups will be added progressively.
+### Platforms and Tracks Covered
 
+- [x] **Capture The Ether** – Logic, math, and ERC-20 based vulnerability exploitation
+- [x] **Damn Vulnerable DeFi v4** – Common DeFi patterns and exploitation primitives
+- [x] **Ethernaut** – Smart contract design flaws and Solidity quirks
+- [ ] **Paradigm CTF** – Coming soon: deeper protocol-level vulnerabilities and gas golfing
